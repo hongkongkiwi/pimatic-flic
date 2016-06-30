@@ -1,0 +1,40 @@
+{
+  "name": "pimatic-flic-button",
+  "description": "Receive button presses from Flic.io buttons.",
+  "author": "Andy Savage <andy@savage.hk> (http://www.github.com/hongkongkiwi)",
+  "license": "MIT",
+  "main": "flic-button",
+  "configSchema": "flic-button-config-schema.coffee",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "flic-button.coffee",
+    "flic-button-config-schema.coffee",
+    "device-config-schema.coffee",
+    "lib/fliclibNodeJs.js"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongkongkiwi/pimatic-flic-button.git"
+  },
+  "keywords": [
+    "flic.io",
+    "flic",
+    "fliclib",
+    "pimatic",
+    "ble",
+    "button"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "devDependencies": {}
+}
